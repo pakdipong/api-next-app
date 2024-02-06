@@ -1,4 +1,4 @@
-import mysql from 'mysql2/promise';
+import mysql from 'mysql2/promise'
 
 const connection = await mysql.createConnection({
     host: process.env.DB_HOST,
@@ -8,4 +8,4 @@ const connection = await mysql.createConnection({
     database: process.env.DB_DATABASE
 });
 
-export default connection;
+export default connection
